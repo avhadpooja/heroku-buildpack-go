@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+* Check to see if the buildpack knows about a file before trying to download it. Fixes #227.
+
 ## v84 (2018-02-16)
 
 * Better naked version expansion that allows not only for 1.9 -> go1.9.4, but also 1.9.4 -> go1.9.4, which was missing previously.
